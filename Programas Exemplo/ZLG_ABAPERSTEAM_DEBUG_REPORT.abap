@@ -2,9 +2,9 @@ REPORT zlg_abapersteam_debug_report.
 *--------------------------------------------------------------------*
 * ****************Execute este programa em background*************** *
 *                                                                    *
-* Preencha o par‚metro P_PROGRM com o nome do programa que deseja    *
+* Preencha o par√¢metro P_PROGRM com o nome do programa que deseja    *
 * debugar                                                            *
-* Preencha o par‚metro P_VARIAN com o nome da variante de tela       *
+* Preencha o par√¢metro P_VARIAN com o nome da variante de tela       *
 * do programa que deseja debugar                                     *
 *                                                                    *
 *--------------------------------------------------------------------*
@@ -18,7 +18,7 @@ DATA: v_stop_loop TYPE flag.
 
 START-OF-SELECTION.
 
-* Verifica se o programa est· sendo executado em modo background
+* Verifica se o programa est√° sendo executado em modo background
   CHECK sy-batch IS NOT INITIAL.
 
 * Loop infinito
@@ -34,3 +34,5 @@ START-OF-SELECTION.
     CATCH cx_root.
       MESSAGE e208(00) WITH 'Programa ou Variante divergente'.
   ENDTRY.
+
+*SALVE LEUZADA RICKS RILAS
